@@ -1,9 +1,9 @@
 {
   "name": "FileManageable",
   "version": "0.1.0",
-  "summary": "A short description of FileManageable.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Shabeer Hussain/FileManageable",
+  "summary": "Swift protocol to allow any conforming object to manage files with ease",
+  "description": "FileManageable gives conforming objects access to various convenience functions to manage files, such:\n- as checking if a file or folder exists\n- deleting files\n- creating folders in directories\n- Getting the path for a given file or folder\n- Listing all the files in a directory\n- Getting the file extensions of files\n- Getting the size of a file or directory",
+  "homepage": "https://github.com/ssh88/FileManageable",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,9 +12,10 @@
     "Shabeer Hussain": "shabeershussain@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Shabeer Hussain/FileManageable.git",
+    "git": "https://github.com/ssh88/FileManageable.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/sshdeveloper",
   "platforms": {
     "ios": "8.0"
   },

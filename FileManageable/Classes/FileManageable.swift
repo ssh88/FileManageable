@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol FileManageable {}
+public protocol FileManageable {}
 
 extension FileManageable {
     
