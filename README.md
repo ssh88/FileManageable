@@ -1,6 +1,6 @@
 # FileManageable
 
-[![CI Status](http://img.shields.io/travis/Shabeer Hussain/FileManageable.svg?style=flat)](https://travis-ci.org/Shabeer Hussain/FileManageable)
+[![CI Status](http://img.shields.io/travis/ssh88/FileManageable.svg?style=flat)](https://travis-ci.org/ssh88/FileManageable)
 [![Version](https://img.shields.io/cocoapods/v/FileManageable.svg?style=flat)](http://cocoapods.org/pods/FileManageable)
 [![License](https://img.shields.io/cocoapods/l/FileManageable.svg?style=flat)](http://cocoapods.org/pods/FileManageable)
 [![Platform](https://img.shields.io/cocoapods/p/FileManageable.svg?style=flat)](http://cocoapods.org/pods/FileManageable)
