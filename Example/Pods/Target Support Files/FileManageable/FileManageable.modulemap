@@ -1,0 +1,6 @@
+framework module FileManageable {
+  umbrella header "FileManageable-umbrella.h"
+
+  export *
+  module * { export * }
+}

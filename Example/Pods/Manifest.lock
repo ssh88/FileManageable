@@ -1,0 +1,16 @@
+PODS:
+  - FileManageable (0.1.0)
+
+DEPENDENCIES:
+  - FileManageable (from `../`)
+
+EXTERNAL SOURCES:
+  FileManageable:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FileManageable: 7a295588a4fddcd3f48ce488b4878d99776c6f88
+
+PODFILE CHECKSUM: eaf2bb02f195083f23c491aebd037c09e4d4a75c
+
+COCOAPODS: 1.2.0

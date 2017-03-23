@@ -1,15 +1,8 @@
-#
-# Be sure to run `pod lib lint FileManageable.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'FileManageable'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FileManageable.'
+  s.summary          = 'Swift protocol to allow any conforming object to manage files with ease'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,20 +11,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+FileManageable gives conforming objects access to various convenience functions to manage files, such:
+- as checking if a file or folder exists
+- deleting files
+- creating folders in directories
+- Getting the path for a given file or folder
+- Listing all the files in a directory
+- Getting the file extensions of files
+- Getting the size of a file or directory
                        DESC
 
-  s.homepage         = 'https://github.com/Shabeer Hussain/FileManageable'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/ssh88/FileManageable'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Shabeer Hussain' => 'shabeershussain@gmail.com' }
-  s.source           = { :git => 'https://github.com/Shabeer Hussain/FileManageable.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/ssh88/FileManageable.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/sshdeveloper'
 
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'FileManageable/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'FileManageable' => ['FileManageable/Assets/*.png']
   # }

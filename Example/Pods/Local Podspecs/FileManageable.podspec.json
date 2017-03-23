@@ -1,0 +1,22 @@
+{
+  "name": "FileManageable",
+  "version": "0.1.0",
+  "summary": "A short description of FileManageable.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Shabeer Hussain/FileManageable",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Shabeer Hussain": "shabeershussain@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Shabeer Hussain/FileManageable.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FileManageable/Classes/**/*"
+}

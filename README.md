@@ -5,11 +5,19 @@
 [![License](https://img.shields.io/cocoapods/l/FileManageable.svg?style=flat)](http://cocoapods.org/pods/FileManageable)
 [![Platform](https://img.shields.io/cocoapods/p/FileManageable.svg?style=flat)](http://cocoapods.org/pods/FileManageable)
 
-## Example
+## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+Need to add a description
+
+here!
+
 ## Requirements
+
+- iOS 8.0+
+- Swift 3
+- Xcode 8
 
 ## Installation
 
