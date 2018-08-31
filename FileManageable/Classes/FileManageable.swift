@@ -36,6 +36,11 @@ extension FileManageable {
         return documentsPath
     }
     
+    public func documentsDirectoryURL() -> URL {
+        let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
+        return URL(string: documentsPath)!
+    }
+    
     
     public func allFiles(in directoryPath: String) -> [String]? {
         do {
@@ -74,6 +79,16 @@ extension FileManageable {
         }
         
         return nil
+    }
+    
+    public func filePath(forFileName fileName: String, fileExtension: String, in directory: String) -> String? {
+        return "\(directory)/\(fileName)/\(fileExtension)"
+    }
+    
+    public func createFile(with fileName:String, fileExtension: String, in directory: String) -> Bool {
+        
+        guard let path = filePath(forFileName: fileName, fileExtension: fileExtension, in: directory) else { return false }
+        return FileManager.default.createFile(atPath: path, contents: nil, attributes: nil)
     }
     
     public func createFolder(withName folderName: String, in directory: URL) -> Bool {
